@@ -1,4 +1,6 @@
-include(gflags)
+include_guard(GLOBAL)
+
+include(gflags.cmake)
 
 KyDep(glog
     GIT_REPOSITORY https://github.com/google/glog.git
