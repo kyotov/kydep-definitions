@@ -9,7 +9,7 @@ else()
     include(FetchContent)
     FetchContent_Declare(kydep_bootstrap
         GIT_REPOSITORY https://github.com/kyotov/kydep-bootstrap.git
-        GIT_TAG v2
+        GIT_TAG v2.1
     )
     FetchContent_MakeAvailable(kydep_bootstrap)
 endif()
