@@ -9,5 +9,5 @@ KyDep(glog
     CMAKE_ARGS
     -DBUILD_TESTING=${KYDEPS_BUILD_TESTS}
 
-    ${DEPENDS_ON_gflags}
+    ${gflags_DEPENDENCY}
 )
